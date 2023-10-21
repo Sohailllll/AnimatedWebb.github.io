@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cursor {
+    height: 140px;
+    width: 140px;
+    background-color: antiquewhite;
+    border-radius: 94px;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 130px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    
+    align-items: center;
+}
+
+.nav .nav1 img {
+    width: 112px;
+    padding: 0 18px;
+}
+
+.nav .nav2{
+    margin-left: 49vw;
+}
+
+.nav .nav2 a {
+    text-decoration: none;
+    padding: 0 36px;
+    color: black;
+}
+
+.nav .nav3{
+    margin-left: 6vw;
+}
+
+.nav .nav3 i{
+    padding: 0 12px;
+}
+
+.page1 {
+    min-height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    width: 100%;
+    padding: 0px 4vw;
+    margin-top: 18vw;
+
+}
+
+.page1 h1 {
+    font-size: 200px;
+    font-family: futura;
+    text-transform: uppercase;
+    line-height: 183px;
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background-color: red; */
+    margin-top: 3vw;
+    margin-left: -4vw;
+}
+
+.video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-container .play {
+    padding: 24px 13px;
+    background: black;
+    color: white;
+    font-family: futura;
+    font-size: 19px;
+    border-radius: 50%;
+    position: fixed;
+    opacity: 0;
+}
+
+.page2 {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 2vw 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page2 .elem {
+    /* background-color: red; */
+    height: 70%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.page2 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
+
+.page2 .elem .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    z-index: 9;
+    height: 51px;
+    width: 28%;
+    border-radius: 35px;
+    position: absolute;
+    margin: 0 18px;
+}
+
+.page2 .elem .box:hover {
+    padding: 44px 0;
+}
+
+.page3 {
+    min-height: 60vh;
+    width: 100%;
+    padding-left: 40px;
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page3 .h4 {
+    font-family: futura;
+    font-size: 70px;
+    line-height: 77px;
+}
+
+.page3 .para {
+    margin-right: 14vw;
+    margin-top: 2vw;
+    line-height: 29px;
+
+}
+
+.page4 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -15px;
+}
+
+.page4 .child {
+    height: 60vh;
+    width: 38vw;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 17px 0px;
+}
+
+.child img {
+    height: 100%;
+    padding: 0 12px;
+}
+
+.child p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page5 h2 {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-family: futura;
+    line-height: 85px;
+}
+
+.page5 button {
+    padding: 21px 66px;
+    border-radius: 35px;
+    background: black;
+    border: none;
+    margin: 52px 0;
+}
+
+.page5 button a {
+    color: white;
+    font-family: futura;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.page6 {
+    margin: 20px 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+}
+
+.page6 .para {
+    font-size: 23px;
+}
+
+.page6 .para h2 {
+    padding: 22px 0;
+}
+
+.page6 .para p {
+    padding: 14px 0;
+}
+
+.page6 .img {}
+
+.page6 .img img {
+    width: 403px;
+    padding: 5px 31px;
+}
+
+.page7 {
+    margin-top: -50px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page7 .img img {
+    border-radius: 143px;
+    width: 281px;
+}
+
+.page7 .text {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.page7 .text p {
+    padding: 0 23px;
+}
+
+.page7 .para {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page7 .para p {
+    padding: 6px 0;
+}
